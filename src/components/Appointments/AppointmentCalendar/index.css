@@ -1,0 +1,47 @@
+/* @import '../../../styles/colors';
+
+#AppointmentCalendar {
+  margin-top: 1rem;
+  .rbc-timeslot-group{
+    min-height: 6rem;
+  }
+	.rbc-toolbar {
+		display: flex;
+		flex-direction: column;
+    gap: 2rem 0;
+		.rbc-toolbar-group {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			.rbc-btn-group {
+				.MuiButtonBase-root {
+					font-weight: 600;
+					background: $secondary;
+					color: white;
+				}
+			}
+		}
+	}
+} */
+
+#AppointmentCalendar {
+  margin-top: 1rem;
+}
+#AppointmentCalendar .rbc-timeslot-group {
+  min-height: 6rem;
+}
+#AppointmentCalendar .rbc-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem 0;
+}
+#AppointmentCalendar .rbc-toolbar .rbc-toolbar-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#AppointmentCalendar .rbc-toolbar .rbc-toolbar-group .rbc-btn-group .MuiButtonBase-root {
+  font-weight: 600;
+  background: #19a598;
+  color: white;
+}

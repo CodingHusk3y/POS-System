@@ -1,0 +1,44 @@
+#StaffPage {
+	padding: 10rem 4rem;
+	font-size: 20px;
+}
+#StaffPage table {
+	width: 100%;
+	border: 1px solid #000;
+	border-spacing: 0px;
+}
+#StaffPage table th {
+	padding: 0.25rem 0;
+	border-bottom: 1px solid #000;
+	border-right: 1px solid #000;
+}
+#StaffPage table th:last-child {
+	border-right: none;
+}
+#StaffPage table tr:first-child td {
+	padding-top: 1.5rem;
+}
+#StaffPage table tr:last-child td {
+	padding-bottom: 1.5rem;
+}
+#StaffPage table tr td {
+	font-weight: 500;
+	padding: 0.25rem 0;
+	text-align: center;
+	border-right: 1px solid #000;
+}
+#StaffPage table tr td:last-child {
+	border-right: none;
+}
+#add-staff {
+	position: absolute;
+	top: 8rem;
+	right: 6rem;
+	font-family: 'Abhaya Libre';
+	padding: 1rem 1rem;
+	cursor: pointer;
+}
+#add-staff__text {
+	font-size: 20px;
+	font-weight: 600;
+}

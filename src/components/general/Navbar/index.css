@@ -1,0 +1,11 @@
+#Navbar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Navbar .active_menu .MuiTypography-root {
+  color: #fdc783;
+  font-weight: 700;
+
+}

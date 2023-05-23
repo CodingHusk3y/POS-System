@@ -1,0 +1,13 @@
+#WaitingList {
+  margin-top: 2rem;
+}
+
+#WaitingList .card_container {
+  margin-top: 0.5rem;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+#WaitingList .card_container::-webkit-scrollbar {
+  display: none;
+}
